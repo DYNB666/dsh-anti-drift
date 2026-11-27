@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+  <defs>
+    <linearGradient id="adGrad" x1="6" y1="8" x2="30" y2="28" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#1D4ED8"/>
+    </linearGradient>
+  </defs>
+  <!-- forward arrow: motion, no loop -->
+  <path d="M7 18 L20 18" stroke="url(#adGrad)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M17 11 L25 18 L17 25" stroke="url(#adGrad)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- solid ground line: evidence base -->
+  <path d="M6 29 L30 29" stroke="#1D4ED8" stroke-width="3" stroke-linecap="round"/>
+  <!-- small check grain above: verified -->
+  <path d="M9 10 L12 13 L17 7" stroke="#60A5FA" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>

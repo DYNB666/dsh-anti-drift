@@ -1,0 +1,12 @@
+- insert:
+    - id: anti-drift
+      name: 'dsh-anti-drift'
+      config:
+        language: auto
+        strictness: standard
+        enforce: true
+        blockBlindEdit: true
+        blockShellWrite: true
+        detectFalseClaims: true
+        repeatCancelThreshold: 3
+        correctionThreshold: 2

@@ -1,0 +1,11 @@
+# Dependencies
+node_modules/
+
+# Build / publish artifacts
+*.tgz
+dist/
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+*.log

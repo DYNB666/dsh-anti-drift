@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Anti-drift guard",
+    "description": "[For sharing and study only — not for any other purpose.] Enforces 'refuse hallucination, never fabricate, never babble' at the engine level with four layers: (1) a system-prompt rule set — facts only, say 'I don't know' when unsure, completion needs evidence, no drift or repetition; (2) hard tool gates that deny blind edits of files this session never read AND destructive shell commands (rm/mv/redirect/sed -i/tee) touching never-read paths — read-before-write is required; (3) audit of consecutive 'not found' failures, repeated identical calls, hedge/guess language, and false 'done' claims with no supporting successful tool call; (4) correction that injects an escalating message (remind→warn→hard stop) into the next model step. Pressure decays gradually so a sustained offender is caught on the very next step. Configurable language, strictness, master switch, the two block switches, and repeat/correction thresholds. With enforce off, only the prompt layer remains and no extra model requests are made."
+  }
+}
